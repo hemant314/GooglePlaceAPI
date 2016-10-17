@@ -2,19 +2,22 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
     <AutoCompleteTextView
         android:id="@+id/location_text"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:hint="Search location"
         android:textSize="18sp"
-        android:textColor="#000000"
+        android:textColor="#ffffff"
         android:textColorHint="#cccccc"
         android:singleLine="true"
         android:background="@null"
         android:imeOptions="actionDone"
-        android:layout_margin="10dp">
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
     </AutoCompleteTextView>
 
 </RelativeLayout>

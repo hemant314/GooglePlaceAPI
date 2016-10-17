@@ -38,8 +38,8 @@ public class LocationActivity extends Activity implements AdapterView.OnItemClic
     private static final String PLACES_API_BASE = "https://maps.googleapis.com/maps/api/place";
     private static final String TYPE_AUTOCOMPLETE = "/autocomplete";
     private static final String OUT_JSON = "/json";
-    private static final String API_KEY = "AIzaSyDecXniEYIonWoMD0AHk_SIPMtPG1Ct53Q";
-    ImageView locationSuccess;
+    private static final String API_KEY = "AIzaSyAqnDykJilquOZdaN_vBT36rz0bgeQ0kbU";
+
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
