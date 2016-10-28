@@ -38,7 +38,7 @@ public class LocationActivity extends Activity implements AdapterView.OnItemClic
     private static final String PLACES_API_BASE = "https://maps.googleapis.com/maps/api/place";
     private static final String TYPE_AUTOCOMPLETE = "/autocomplete";
     private static final String OUT_JSON = "/json";
-    private static final String API_KEY = "AIzaSyAqnDykJilquOZdaN_vBT36rz0bgeQ0kbU";
+    private static final String API_KEY = "your API key";
 
 
     @Override
@@ -69,6 +69,7 @@ public class LocationActivity extends Activity implements AdapterView.OnItemClic
             sb.append("&radius=50000");
             sb.append("&components=country:in");
             sb.append("&input=" + URLEncoder.encode(input, "utf8"));
+            Log.v("sb", String.valueOf(sb));
 
             URL url = new URL(sb.toString());
             conn = (HttpURLConnection) url.openConnection();
